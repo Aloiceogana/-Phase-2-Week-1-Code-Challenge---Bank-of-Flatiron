@@ -10,24 +10,25 @@ const initialState = {
  searchTerm: '',
  filterCategory: '',
 };
+
 function reducer(state, action) {
-  switch (action.type) {
-    case 'ADD_TRANSACTION':
-      return {
-        ...state,
-        transactions: [...state.transactions, action.payload],
-      };
-    case 'UPDATE_SEARCH_TERM':
-      return {
-        ...state,
-        searchTerm: action.payload,
-      };
-    case 'UPDATE_FILTER_CATEGORY':
-      return {
-        ...state,
-        filterCategory: action.payload,
-      };
-    default:
-      return state;
-  }
+ switch (action.type) {
+   case 'ADD_TRANSACTION':
+     return {
+       ...state,
+       transactions: [...state.transactions, action.payload],
+     };
+   case 'UPDATE_SEARCH_TERM':
+     return {
+       ...state,
+       searchTerm: action.payload,
+     };
+   case 'UPDATE_FILTER_CATEGORY':
+     return {
+       ...state,
+       filterCategory: action.payload,
+     };
+   default:
+     return state;
  }
+}
