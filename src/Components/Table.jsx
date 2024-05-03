@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import "../index.css";
+import React, { useState } from 'react';
+import '../index.css';
 
 const Table = ({ transactions }) => {
-  const [sortOrder, setSortOrder] = useState("");
+  const [sortOrder, setSortOrder] = useState('');
 
   const sortTransactions = (order) => {
-    if (order === "categoryAsc") {
+    if (order === 'categoryAsc') {
       return [...transactions].sort((a, b) =>
         a.category.localeCompare(b.category)
       );
-    } else if (order === "categoryDesc") {
+    } else if (order === 'categoryDesc') {
       return [...transactions].sort((a, b) =>
         b.category.localeCompare(a.category)
       );
-    } else if (order === "descriptionAsc") {
+    } else if (order === 'descriptionAsc') {
       return [...transactions].sort((a, b) =>
         a.description.localeCompare(b.description)
       );
-    } else if (order === "descriptionDesc") {
+    } else if (order === 'descriptionDesc') {
       return [...transactions].sort((a, b) =>
         b.description.localeCompare(a.description)
       );
