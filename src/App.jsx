@@ -1,7 +1,7 @@
-import React, { useReducer } from "react";
-import Header from "./Components/Header";
-import SearchBar from "./Components/SearchBar";
 import Form from "./Components/Form";
+import Header from "./Components/Header";
+import React, { useReducer } from "react";
+import SearchBar from "./omponents/SearchBar";
 import Table from "./Components/Table";
 import "./index.css";
 
