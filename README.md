@@ -1,43 +1,49 @@
-# Bank of Flatiron 
+# Bank of Flatiron
 
 #### Date, 28/04/2024
 
-
 ## Description
+
 - The Transaction Management System is a web app for tracking financial transactions. It offers features like viewing transactions in a table, adding new ones, and filtering by keywords. Users can also sort transactions alphabetically by category or description.
 
 ### Objective
+
 - Display a table of transactions.
 - Implement a form for adding new transactions.
 - Add functionality to filter transactions by description using a search bar.
 - Allow sorting of transactions alphabetically by category or description.
 
 ## Installation
+
 You use git clone to be able to download the documents in the GitHub
 
 ## Installation Requirements
+
 - Git
 
 ### Installation instruction
+
 ```
-Git clone https://github.com/Felleria/phase-2-code-challenge
+Git clone
 
 ```
 
 ## Technologies used
+
 - HTML
 - Github
 - Javascript
 - React
 
 ## Support and contact details
-github.com/Felleria
+
+github.com/ALOICEOGANA
 
 ### License
 
 MIT License
 
-Copyright (c) 2024 Felleria
+Copyright (c) 2024 ALOICE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -58,4 +64,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## AUTHOR
-Felleria Nang'oma
+
+ALOICE OGANA
